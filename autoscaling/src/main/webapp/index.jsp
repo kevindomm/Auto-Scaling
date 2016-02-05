@@ -7,7 +7,7 @@
 	    <title>Auto Scaling App</title>
 	</head>
 	<body>
-		<h2>Your server IP address is:TEST</h2>
+		<h2>Your server IP address is:</h2>
 		<h3><%=InetAddress.getLocalHost().getHostAddress()%></h3>
 	</body>
 </html>
