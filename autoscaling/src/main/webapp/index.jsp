@@ -6,8 +6,10 @@
 	<head>
 	    <title>Auto Scaling App</title>
 	</head>
-	<body>
-		<h2>Your server IP address is:</h2>
-		<h3><%=InetAddress.getLocalHost().getHostAddress()%></h3>
+	<body>		
+		<h2>Your server name is: </h2>
+		<%=InetAddress.getLocalHost().getHostName()%>
+		<h3>Your server IP address is:</h3>
+		<%=InetAddress.getLocalHost().getHostAddress()%>
 	</body>
 </html>
